@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import TabSelector from './components/TabSelector';
 import SearchBar from './components/SearchBar';
-import ItemCard from './components/ItemCard';
+import ItemCard from "/src/components/ItemCard";
+
 import AddItemModal from './components/AddItemModal';
 import { useItems } from './hooks/useItems';
 
